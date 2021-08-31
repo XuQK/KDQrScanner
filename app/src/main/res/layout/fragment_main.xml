@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_open_full_scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开全屏扫描页面" />
+
+    <Button
+        android:id="@+id/btn_open_full_scanner_wx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开全屏扫描页面，粗仿微信" />
+
+    <Button
+        android:id="@+id/btn_open_rect_scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开限定识别范围的扫描页面" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav_main"
+    android:label="GraphMain"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="github.xuqk.kdqrscanner.sample.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/FullScanFragment"
+        android:name="github.xuqk.kdqrscanner.sample.ScanFragment"
+        android:label="FullScanFragment"
+        tools:layout="@layout/fragment_scan" />
+
+    <fragment
+        android:id="@+id/ResultShowFragment"
+        android:name="github.xuqk.kdqrscanner.sample.ResultShowFragment"
+        android:label="ResultShowFragment"
+        tools:layout="@layout/fragment_result_show" />
+
+</navigation>

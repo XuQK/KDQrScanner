@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="github.xuqk.kdqrscanner"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--If you use android.hardware.camera without .any, it will not work if you have a device without a back camera, such as most Chromebooks.-->
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>
